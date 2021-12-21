@@ -1,8 +1,8 @@
 import { defineConfig } from 'dumi';
 
 // 此处更换为自己的仓库名
-let base = '/react-ui-library-tutorial';
-let publicPath = '/react-ui-library-tutorial/';
+let base = '/lis-ui';
+let publicPath = '/lis-ui/';
 
 if (process.env.SITE_BUILD_ENV === 'PREVIEW') {
   base = undefined;
@@ -11,7 +11,6 @@ if (process.env.SITE_BUILD_ENV === 'PREVIEW') {
 
 export default defineConfig({
   title: 'Lis UI',
-  logo:'',
   mode: 'site',
   outputPath: 'doc-site',
   exportStatic: {},
