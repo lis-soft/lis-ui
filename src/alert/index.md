@@ -1,5 +1,5 @@
 ---
-title: Alert111 警告提示
+title: Alert2222 警告提示
 nav:
   title: 组件
   order: 2
