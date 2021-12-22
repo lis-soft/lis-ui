@@ -2,12 +2,16 @@
   "name": "lis-ui",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/index.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "typings": "lib/index.d.ts",
+  "main": "lib/index.js",
   "module": "esm/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "esm"
+  ],
   "scripts": {
     "dev": "dumi dev",
     "build": "npm run clean && npm run build:types && gulp",
