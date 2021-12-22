@@ -13,5 +13,5 @@
     "resolveJsonModule": true
   },
   "include": ["src", "typings.d.ts"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "lib", "esm", "dist", "typings", "**/__test__", "test", "tests"]
 }

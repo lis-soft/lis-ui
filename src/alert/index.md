@@ -1,5 +1,5 @@
 ---
-title: Alert 警告提示 21423432test
+title: Alert 警告提示
 nav:
   title: 组件
   order: 2
