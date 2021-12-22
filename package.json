@@ -20,7 +20,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "test:update": "jest --updateSnapshot"
+    "test:update": "jest --updateSnapshot",
+    "release": "np --no-cleanup --no-tests --any-branch"
   },
   "lint-staged": {
     "**/*.less": "stylelint --syntax less",
